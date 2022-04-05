@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            html{
+                background-color: floralwhite;
+            }
+            body{
+                width: 70%;                   
+                margin: auto;
+            }
+            nav ul{
+                font-size: 30px;
+                display: table-row;
+                margin: 0;
+            }
+
+            nav {
+                display: table;
+                width: 100%;
+                margin: 0px;
+                float: left;
+            }
+            nav ul li {
+                display: table-cell;
+                text-align: center;
+                margin: auto;
+                border: none;
+                border-collapse: collapse;
+            }
+            a{
+                text-decoration: none; 
+                color: black;
+            }
+            a:hover{
+                color: blue;
+            }
+            h2{
+                font-size: 30px;
+                color: coral; 
+                font-weight: bold;
+            }
+            .link p{
+                font-size: 25px;
+            }
+            div#software,#hardware,#service{
+                margin: 20px;
+            }
+            img{
+                width: 450px;
+            }
+            hr, footer{
+                clear: both;
+            }
+            div#software > p{
+                text-align: center;
+                padding-top: 150px;
+                font-size: 20px;
+            }
+            div#hardware > p{
+                text-align: center;
+                padding-top: 150px;
+                padding-left: 130px;
+                font-size: 20px;
+            }
+            div#service > p{
+                text-align: center;
+                padding-top: 100px;
+                padding-right: 140px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">
+            <h1 style="font-size: 50px; color: crimson;">Xtree Solution</h1>
+        </a>
+        <diV class="navlist">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="pricing.html">Price</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </diV>
+        <hr>
+        <p style="font-size: 30px; text-align: center; color: firebrick; font-weight: bold;">Welcome to Xtree Solution</p>
+        <p style="font-size: 20px; font-weight: bold;">What are you looking for?</p>
+        
+        <div id="software">
+            <a href="product.html">
+                <img src="software.jpg" alt="software" style="float: left;">
+            </a>
+            <p>SOFTWARE</p>
+        </div>
+        
+        <div id="hardware">
+            <p style="float: left; clear: both;">HARDWARE</p>
+            <a href="product.html">
+                <img src="hardware.jpg" alt="hardware" style="float: right;">
+            </a>
+        </div>
+        
+        <div id="service">
+            <a href="product.html">
+                <img src="service.jpg" alt="service" style="float:left;">
+            </a>
+            <p style="float:right;">SERVICES</p>
+        </div>
+        
+        <hr>
+        <footer >
+            <div class="footer">
+                <p><em>If you ever need help, or simply have
+                        some suggestions for us,<br>please tell us:</em></p>
+                <p>Contact No: +601135786118</p>
+                <p>Operation Hour: Mon to Sat | 9.30am - 6.00pm</p>
+                <p>Email: <a href="xtreesolutions@gmail.com"><em>xtreesolutions@gmail.com</em></a></p>
+            </div>
+        </footer>
+    </body>
+</html>
